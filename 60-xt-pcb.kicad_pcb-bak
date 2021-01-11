@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -232,11 +232,13 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.254)
+    (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +3V3)
+    (add_net +5V)
     (add_net BOOT0)
     (add_net CAPS)
     (add_net Col0)
@@ -255,6 +257,9 @@
     (add_net Col7)
     (add_net Col8)
     (add_net Col9)
+    (add_net D+)
+    (add_net D-)
+    (add_net GND)
     (add_net NRST)
     (add_net "Net-(C3-Pad1)")
     (add_net "Net-(D10-Pad2)")
@@ -370,31 +375,6 @@
     (add_net Row2)
     (add_net Row3)
     (add_net Row4)
-  )
-
-  (net_class Data ""
-    (clearance 0.2)
-    (trace_width 0.254)
-    (via_dia 0.8)
-    (via_drill 0.4)
-    (uvia_dia 0.3)
-    (uvia_drill 0.1)
-    (diff_pair_width 0.254)
-    (diff_pair_gap 0.25)
-    (add_net D+)
-    (add_net D-)
-  )
-
-  (net_class Power ""
-    (clearance 0.2)
-    (trace_width 0.381)
-    (via_dia 0.8)
-    (via_drill 0.4)
-    (uvia_dia 0.3)
-    (uvia_drill 0.1)
-    (add_net +3V3)
-    (add_net +5V)
-    (add_net GND)
     (add_net VCC)
   )
 
