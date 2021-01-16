@@ -3270,4 +3270,70 @@ Text GLabel 19950 7600 1    50   Input ~ 0
 Col15
 Text GLabel 11100 7600 1    50   Input ~ 0
 Col6
+Text GLabel 13800 4900 2    50   Input ~ 0
+CAPS
+Text GLabel 12500 4800 0    50   Input ~ 0
+Row0
+Text GLabel 12500 4700 0    50   Input ~ 0
+Row4
+Text GLabel 12500 4300 0    50   Input ~ 0
+Row2
+Text GLabel 12500 4600 0    50   Input ~ 0
+Row3
+Text GLabel 12500 4500 0    50   Input ~ 0
+Col0
+Text GLabel 12500 4400 0    50   Input ~ 0
+Col1
+Text GLabel 12500 4200 0    50   Input ~ 0
+Col2
+Text GLabel 13800 4300 2    50   Input ~ 0
+Col15
+Text GLabel 13800 4400 2    50   Input ~ 0
+Col14
+Text GLabel 13800 4500 2    50   Input ~ 0
+Col13
+Text GLabel 13800 4600 2    50   Input ~ 0
+Col12
+Text GLabel 12500 3900 0    50   Input ~ 0
+Col11
+Text GLabel 12500 4000 0    50   Input ~ 0
+Col10
+Text GLabel 12500 4100 0    50   Input ~ 0
+Col9
+Text GLabel 12500 4900 0    50   Input ~ 0
+Col8
+Text GLabel 12500 5000 0    50   Input ~ 0
+Col7
+Text GLabel 12500 5100 0    50   Input ~ 0
+Col6
+Text GLabel 12500 5200 0    50   Input ~ 0
+Col5
+Text GLabel 12500 5300 0    50   Input ~ 0
+Col4
+Text GLabel 13800 4200 2    50   Input ~ 0
+Col3
+Text GLabel 12500 3200 0    50   Input ~ 0
+Row1
+$Comp
+L logos:O-LOGO LOGO1
+U 1 1 600E326D
+P 14950 12900
+F 0 "LOGO1" H 15124 12946 50  0000 L CNN
+F 1 "O-LOGO" H 15124 12855 50  0000 L CNN
+F 2 "board_logos:o-logo-300dpi" H 14950 12900 50  0001 C CNN
+F 3 "" H 14950 12900 50  0001 C CNN
+	1    14950 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L logos:O-LOGO LOGO2
+U 1 1 600E3B17
+P 15650 12900
+F 0 "LOGO2" H 15824 12946 50  0000 L CNN
+F 1 "O-LOGO" H 15824 12855 50  0000 L CNN
+F 2 "board_logos:o-logo-back-300dpi" H 15650 12900 50  0001 C CNN
+F 3 "" H 15650 12900 50  0001 C CNN
+	1    15650 12900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
